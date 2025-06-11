@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e8ffe76a19d6796b0ab181ef13129538 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e8ffe76a19d6796b0ab181ef13129538" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e8ffe76a19d6796b0ab181ef13129538 = L.map(
+                "map_e8ffe76a19d6796b0ab181ef13129538",
+                {
+                    center: [-32.8894, -68.8458],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98e692f9b443425ffda20ea826c455f5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e8ffe76a19d6796b0ab181ef13129538);
+        
+    
+            var marker_deebb79e22f80cb846ff45e828a1f2d7 = L.marker(
+                [-32.9819, -68.605],
+                {}
+            ).addTo(map_e8ffe76a19d6796b0ab181ef13129538);
+        
+    
+            var icon_6acf3a7f1f464ae66a78aae2914a247d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_deebb79e22f80cb846ff45e828a1f2d7.setIcon(icon_6acf3a7f1f464ae66a78aae2914a247d);
+        
+    
+        var popup_b93a27bc69acef1264a61314f3770e90 = L.popup({"maxWidth": 300});
+
+        
+            var i_frame_aaa6ec7fb71547cb779f0a3531eeb089 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8Yj5Bw7FvIGRlIGZ1bmRhY2nDs246PC9iPiAxODg1PGJyPgogICAgICAgIDxiPkZ1bmRhZG9yOjwvYj4gRmVsaXBlIFJ1dGluaSAoSXRhbGlhKTxicj4KICAgICAgICA8Yj5EYXRvIGRlc3RhY2Fkbzo8L2I+IFRpZW5lIGVsIDxpPk11c2VvIGRlbCBWaW5vPC9pPiBtw6FzIGltcG9ydGFudGUgZGVsIHBhw61zLjxicj4KICAgICAgICA8Yj5BY3R1YWxpZGFkOjwvYj4gTWFyY2EgaW50ZXJuYWNpb25hbG1lbnRlIHJlY29ub2NpZGEgcG9yIHN1IGNhbGlkYWQuCiAgICAgICAg" width="300" style="border:none !important;" height="150"></iframe>`)[0];
+            popup_b93a27bc69acef1264a61314f3770e90.setContent(i_frame_aaa6ec7fb71547cb779f0a3531eeb089);
+        
+
+        marker_deebb79e22f80cb846ff45e828a1f2d7.bindPopup(popup_b93a27bc69acef1264a61314f3770e90)
+        ;
+
+        
+    
+    
+            marker_deebb79e22f80cb846ff45e828a1f2d7.bindTooltip(
+                `<div>
+                     Bodega La Rural (Rutini)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf18194e491a2a74a7977a7a7e8f0e3f = L.marker(
+                [-32.9502, -68.7074],
+                {}
+            ).addTo(map_e8ffe76a19d6796b0ab181ef13129538);
+        
+    
+            var icon_7eade3cbed3746be2060ecf0bd699aaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bf18194e491a2a74a7977a7a7e8f0e3f.setIcon(icon_7eade3cbed3746be2060ecf0bd699aaf);
+        
+    
+        var popup_572223596b94b4d85893dfedb43a95d1 = L.popup({"maxWidth": 300});
+
+        
+            var i_frame_93a72eab6d5fa23ab7d34d4b15f65737 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8Yj5Bw7FvIGRlIGZ1bmRhY2nDs246PC9iPiAxODk4PGJyPgogICAgICAgIDxiPkZ1bmRhZG9yOjwvYj4gSm9zw6kgTMOzcGV6IFJpdmFzIChFc3Bhw7FhKTxicj4KICAgICAgICA8Yj5EYXRvIGRlc3RhY2Fkbzo8L2I+IFVuYSBkZSBsYXMgcG9jYXMgYm9kZWdhcyBxdWUgbWFudGllbmUgZWwgZXN0aWxvIGNsw6FzaWNvIGRlIGVsYWJvcmFjacOzbi48YnI+CiAgICAgICAgPGI+QWN0dWFsaWRhZDo8L2I+IEV0aXF1ZXRhcyBjb21vIDxpPk1vbnRjaGVub3Q8L2k+IHNpZ3VlbiBzaWVuZG8gZW1ibGVtw6F0aWNhcy4KICAgICAgICA=" width="300" style="border:none !important;" height="150"></iframe>`)[0];
+            popup_572223596b94b4d85893dfedb43a95d1.setContent(i_frame_93a72eab6d5fa23ab7d34d4b15f65737);
+        
+
+        marker_bf18194e491a2a74a7977a7a7e8f0e3f.bindPopup(popup_572223596b94b4d85893dfedb43a95d1)
+        ;
+
+        
+    
+    
+            marker_bf18194e491a2a74a7977a7a7e8f0e3f.bindTooltip(
+                `<div>
+                     Bodega López
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c94f51ca86c883d10132d39bee73a0b0 = L.marker(
+                [-32.8962, -68.8446],
+                {}
+            ).addTo(map_e8ffe76a19d6796b0ab181ef13129538);
+        
+    
+            var icon_faefc3501dd916ce03ea978a3cd92b37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c94f51ca86c883d10132d39bee73a0b0.setIcon(icon_faefc3501dd916ce03ea978a3cd92b37);
+        
+    
+        var popup_3d6cf73ca96b8f6f880df330cf6c9802 = L.popup({"maxWidth": 300});
+
+        
+            var i_frame_ab54ca8b74768e3b8111c12636f86f75 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8Yj5Bw7FvIGRlIGZ1bmRhY2nDs246PC9iPiAxODg0PGJyPgogICAgICAgIDxiPkZ1bmRhZG9yOjwvYj4gTWlndWVsIEVzY29yaWh1ZWxhIEdhc2PDs24gKEVzcGHDsWEpPGJyPgogICAgICAgIDxiPkRhdG8gZGVzdGFjYWRvOjwvYj4gU3UgZWRpZmljaW8gZXMgUGF0cmltb25pbyBDdWx0dXJhbCBkZSBsYSBDaXVkYWQuPGJyPgogICAgICAgIDxiPkFjdHVhbGlkYWQ6PC9iPiBTZSBlc3BlY2lhbGl6YSBlbiB2aW5vcyBwcmVtaXVtIHkgZ2FzdHJvbm9tw61hIGRlIGFsdG8gbml2ZWwuCiAgICAgICAg" width="300" style="border:none !important;" height="150"></iframe>`)[0];
+            popup_3d6cf73ca96b8f6f880df330cf6c9802.setContent(i_frame_ab54ca8b74768e3b8111c12636f86f75);
+        
+
+        marker_c94f51ca86c883d10132d39bee73a0b0.bindPopup(popup_3d6cf73ca96b8f6f880df330cf6c9802)
+        ;
+
+        
+    
+    
+            marker_c94f51ca86c883d10132d39bee73a0b0.bindTooltip(
+                `<div>
+                     Bodegas Escorihuela Gascón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7941684c03fa6c9435cbe4798cd7d1a2 = L.marker(
+                [-32.9703, -68.6201],
+                {}
+            ).addTo(map_e8ffe76a19d6796b0ab181ef13129538);
+        
+    
+            var icon_bcbf48271a3e275e5f31780fdb73c59a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7941684c03fa6c9435cbe4798cd7d1a2.setIcon(icon_bcbf48271a3e275e5f31780fdb73c59a);
+        
+    
+        var popup_fc47ecde2ab14d81b2fa3fe9251cf059 = L.popup({"maxWidth": 300});
+
+        
+            var i_frame_d7c0b5e6634dc767a61bc8214c125e0c = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8Yj5Bw7FvIGRlIGZ1bmRhY2nDs246PC9iPiAxODk2PGJyPgogICAgICAgIDxiPkZ1bmRhZG9yZXM6PC9iPiBKdWFuIEdpb2wgeSBCYXV0aXN0YSBHYXJnYW50aW5pPGJyPgogICAgICAgIDxiPkRhdG8gZGVzdGFjYWRvOjwvYj4gRnVlIDxpPmxhIGJvZGVnYSBtw6FzIGdyYW5kZSBkZWwgbXVuZG88L2k+IGVuIHN1IMOpcG9jYS48YnI+CiAgICAgICAgPGI+QWN0dWFsaWRhZDo8L2I+IEhveSBlcyBlbCA8aT5NdXNlbyBOYWNpb25hbCBkZWwgVmlubyB5IGxhIFZlbmRpbWlhPC9pPi4KICAgICAgICA=" width="300" style="border:none !important;" height="150"></iframe>`)[0];
+            popup_fc47ecde2ab14d81b2fa3fe9251cf059.setContent(i_frame_d7c0b5e6634dc767a61bc8214c125e0c);
+        
+
+        marker_7941684c03fa6c9435cbe4798cd7d1a2.bindPopup(popup_fc47ecde2ab14d81b2fa3fe9251cf059)
+        ;
+
+        
+    
+    
+            marker_7941684c03fa6c9435cbe4798cd7d1a2.bindTooltip(
+                `<div>
+                     Bodegas Giol (Museo del Vino)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a535a2207d8119fc8e46b455c9ce017 = L.marker(
+                [-32.9594, -68.6426],
+                {}
+            ).addTo(map_e8ffe76a19d6796b0ab181ef13129538);
+        
+    
+            var icon_9e6ba50f75b585cb5554fdd0be93cb8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6a535a2207d8119fc8e46b455c9ce017.setIcon(icon_9e6ba50f75b585cb5554fdd0be93cb8e);
+        
+    
+        var popup_e42969ca6452518e504f0231eb90f7d7 = L.popup({"maxWidth": 300});
+
+        
+            var i_frame_13fad2b1201426db8cd865ef3fc90521 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8Yj5Bw7FvIGRlIGZ1bmRhY2nDs246PC9iPiAxODgzPGJyPgogICAgICAgIDxiPkZ1bmRhZG9yOjwvYj4gVGlidXJjaW8gQmVuZWdhczxicj4KICAgICAgICA8Yj5EYXRvIGRlc3RhY2Fkbzo8L2I+IEZ1ZSBjbGF2ZSBlbiBsYSBtb2Rlcm5pemFjacOzbiBkZWwgdmlubyBhcmdlbnRpbm8uPGJyPgogICAgICAgIDxiPkFjdHVhbGlkYWQ6PC9iPiBFeHBvcnRhIGEgbcOhcyBkZSA0MCBwYcOtc2VzIHkgZXMgcmVjb25vY2lkYSBnbG9iYWxtZW50ZS4KICAgICAgICA=" width="300" style="border:none !important;" height="150"></iframe>`)[0];
+            popup_e42969ca6452518e504f0231eb90f7d7.setContent(i_frame_13fad2b1201426db8cd865ef3fc90521);
+        
+
+        marker_6a535a2207d8119fc8e46b455c9ce017.bindPopup(popup_e42969ca6452518e504f0231eb90f7d7)
+        ;
+
+        
+    
+    
+            marker_6a535a2207d8119fc8e46b455c9ce017.bindTooltip(
+                `<div>
+                     Trapiche
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0fe67bef8add0285a1e24c98ccaa1b5 = L.marker(
+                [-33.0151, -68.8816],
+                {}
+            ).addTo(map_e8ffe76a19d6796b0ab181ef13129538);
+        
+    
+            var icon_01b249df6e37066b5c6ef24d3363e4d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e0fe67bef8add0285a1e24c98ccaa1b5.setIcon(icon_01b249df6e37066b5c6ef24d3363e4d3);
+        
+    
+        var popup_298763e1a2a48084da410798f1ab39da = L.popup({"maxWidth": 300});
+
+        
+            var i_frame_5f0595207093db49ef5a5b4f53dc1dd1 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICAKICAgICAgICA8Yj5Bw7FvIGRlIGZ1bmRhY2nDs246PC9iPiAxODg4PGJyPgogICAgICAgIDxiPkZ1bmRhZG9yZXM6PC9iPiBGYW1pbGlhIGl0YWxpYW5hPGJyPgogICAgICAgIDxiPkRhdG8gZGVzdGFjYWRvOjwvYj4gQ29uc2VydmEgY29uc3RydWNjaW9uZXMgb3JpZ2luYWxlcyBkZWwgc2lnbG8gWElYLjxicj4KICAgICAgICA8Yj5BY3R1YWxpZGFkOjwvYj4gUHJvZHVjZSB2aW5vcyBkZSBhbHRhIGdhbWEgZW4gTHVqw6FuIGRlIEN1eW8uCiAgICAgICAg" width="300" style="border:none !important;" height="150"></iframe>`)[0];
+            popup_298763e1a2a48084da410798f1ab39da.setContent(i_frame_5f0595207093db49ef5a5b4f53dc1dd1);
+        
+
+        marker_e0fe67bef8add0285a1e24c98ccaa1b5.bindPopup(popup_298763e1a2a48084da410798f1ab39da)
+        ;
+
+        
+    
+    
+            marker_e0fe67bef8add0285a1e24c98ccaa1b5.bindTooltip(
+                `<div>
+                     Nieto Senetiner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
